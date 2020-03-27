@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AUTOEVALUA AGENTES</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styleshare.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bgIMG">
+  
+  <header class="logotype hide-on-mobile" style="background-color: #FFF !important; padding: 1em 0px 0px">
+    <div class="row">
+      <div class="col-12">
+        <div align="right">
+          <div class="bluecint">
+            <p>AGENTE AUTORIZADO:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="https://agentes.autoevalua.com/agentes/img/logo.png" alt="" style="height: auto; width: 28vh; padding-left: 2em; padding-top: 10px;">
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-4 offset-4">
+            <ul class="infoAgent">
+              <li><b style="color: #757575;">AGENTE: </b>$NombreAgente$</li>
+              <li><b style="color: #757575;">UBICACIÓN: </b>$Agente_ubicación$</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul class="infoAgent">
+              <li><b style="color: #757575;">TELÉFONO: </b>$Agente_phone$</li>
+              <li><b style="color: #757575;">EMAIL: </b>$Agente_email$</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row menuicons" style="margin-bottom: -1em;">
+          <div class="col-2 offset-7">
+            <ul class="iconsmenu">
+              <li>
+                <a href="https://www.facebook.com/AutoEvalua/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/AutoEvalua" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a title="Abrir Chat" style="cursor:pointer" onclick="openChat()"><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul class="phonemenu">
+              <li style="display:flex;">
+                <a href="tel:8002382582"><i class="fa fa-phone fa-2x" aria-hidden="true"></i> <b style="padding-left:10px; color: #ff871d;">800 238 2582</b></a>
+              </li>        
+            </ul>
+          </div>
+          <div class="col-1">
+            <ul style="text-align: right;">
+              <li style="padding: 9px;">
+                <a href="../sesion/cerrarSesion.jsp?canal=18&amp;bSalir=1" style="color: #ff871d; font-size: 13px;">salir</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div align="center">
+      <hr style="background-color: #ff871d; height: 2px; width: 100%;">
+    </div>
+    
+  </header>
+
+  <header class="logotype show-on-mobile show-on-ipad" style="background-color: #FFF !important;">
+    <div align="center">
+      <div class="bluecint">
+        <p style="margin-bottom: 0 !important; text-align: center !important;">AGENTE AUTORIZADO:</p>
+      </div>
+      <p style="margin-bottom: 0 !important; text-align: right; margin-right: 10px;"><a href="../sesion/cerrarSesion.jsp?canal=18&amp;bSalir=1" style="color: #ff871d; font-size: 13px;">salir</a></p>
+    </div>
+    <div align="center">
+      <img src="https://agentes.autoevalua.com/agentes/img/logo.png" alt="" style="height: auto; width: 28vh; padding: 10px;">
+    </div>
+    <div class="row">
+      <div class="col-12" align="center">
+        <ul class="infoAgent">
+          <li><b style="color: #757575;">AGENTE: </b>$NombreAgente$</li>
+          <li><b style="color: #757575;">TELÉFONO: </b>$Agente_phone$</li>
+          <li><b style="color: #757575;">CORREO: </b>agente123@serveremail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row menuicons">
+      <div class="col-6 justify-content-right" style="text-align: right;">
+        <ul class="iconsmenu">
+          <li>
+            <a href="https://www.facebook.com/AutoEvalua/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AutoEvalua" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a title="Abrir Chat" style="cursor:pointer" onclick="openChat()"><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <ul class="phonemenu">
+          <li style="display:flex;">
+            <a href="tel:8002382582"><i class="fa fa-phone fa-2x" aria-hidden="true"></i> <b style="padding-left:10px; color: #ff871d;">800 238 2582</b></a>
+          </li>        
+        </ul>
+      </div> 
+    </div>
+    <hr style="background-color: #ff871d; height: 2px; margin: 0 !important;">
+  </header>
+
+
+  <div class="initstart">
+    <div class="container hide-on-mobile">
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <img src="img/icon_binac.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_oblig.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_turista.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_choc.png" class="iconstart">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <img src="img/icon_rcmoto.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_frontl.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_auto.png" class="iconstart">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <img src="img/icon_campart.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_camcar.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_motocom.png" class="iconstart">
+        </div>
+        <div class="col-3">
+          <img src="img/icon_moto.png" class="iconstart">
+        </div>
+      </div>
+    </div>
+    <div class="container show-on-mobile">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="img/icon_binac.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_oblig.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_turista.png">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="img/icon_choc.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_rcmoto.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_frontl.png">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="img/icon_auto.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_campart.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_camcar.png">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <img src="img/icon_motocom.png">
+        </div>
+        <div class="col-4">
+          <img src="img/icon_moto.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
