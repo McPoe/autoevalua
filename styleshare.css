@@ -25,17 +25,22 @@ body.bgIMG
 	position: fixed;
 }
 
-.logocas{
-	height: auto;
-	width: 28vh;
-	padding-left: 1em;
-	padding-top: 10px;
-	padding-bottom: 1em;
+.logol{
+    height: auto;
+    width: 28vh;
+    padding: 1em;
+}
+
+.logor{
+    width: 27vh;
+    position: absolute;
+    right: 1em;
+    padding: 1em;
 }
 
 .bluecint{
 	background-color: #ff871d;
-	width: 100%;
+	width: 50%;
 	margin-top: -1em;
 }
 
@@ -43,7 +48,7 @@ body.bgIMG
 	padding: 5px;
 	color: #FFF;
 	font-size: 15px;
-	text-align: right;
+	text-align: center;
 	font-weight: bolder;
 }
 
@@ -52,7 +57,7 @@ body.bgIMG
 	color: #757575;
 	list-style: none;
 	margin: 10px;
-	text-align: right;
+	text-align: center;
 }
 
 .textes{
@@ -149,8 +154,8 @@ ul.phonemenu li a i{
 
 .initstart{
 	display: block;
-	position: absolute;
-	margin-top: 5%;
+	position: relative;
+	margin-top: 10%;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -190,11 +195,6 @@ ul.phonemenu li a i{
 		visibility: hidden;
 	}
 
-	.bluecint{
-		width: 100%;
-		margin-top: 0;
-	}
-
 	.infoAgent{
 	margin: 5px 0px;
 	text-align: center;
@@ -222,10 +222,12 @@ ul.phonemenu li a i{
 }
 
 @media only screen and (max-width: 776px) {
-  .logocas{
-  	width: 20vh;
-  	margin: 0 auto;
-  }
+   .logol{
+        width: 24vh !important;
+    }
+    .logor{
+        width: 23vh !important;
+    }
 
 	img.icons{
 	max-width: 100px;
@@ -273,7 +275,7 @@ ul.phonemenu li a i{
 		padding-left: 0px !important;
 	}
 
-.initstart{
-	margin-top: 40%;
-}
+	.initstart{
+		margin-top: 35%;
+	}
 }
