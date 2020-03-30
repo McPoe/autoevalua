@@ -12,73 +12,85 @@
   
 
 
-  <header class="logotype hide-on-mobile" style="background-color: #FFF !important; padding: 1em 0px 0px">
-    <div class="row">
-      <div class="col-12">
-        <div align="center">
-          <div class="bluecint">
-            <p>AGENTE AUTORIZADO:</p>
-          </div>
+  <header class="logotype d-none d-xl-block" style="padding: 1em 0px 0px">
+    <div class="row m-0">
+        <div class="col-12">
+            <div align="center">
+                <div class="bluecint">
+                    <p>AGENTE AUTORIZADO:</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-3">
-        <img src="https://agentes.autoevalua.com/agentes/img/logo.png" alt="" class="logol">
-      </div>
-      <div class="col-6">
-        <div class="row">
-          <div class="col-4 offset-2">
-            <ul class="infoAgent">
-              <li><b >AGENTE: </b>$NombreAgente$</li>
-              <li><b>UBICACIÓN: </b>$Agente_ubicación$</li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul class="infoAgent">
-              <li><b>TELÉFONO: </b>$Agente_phone$</li>
-              <li><b>EMAIL: </b>$Agente_email$</li>
-            </ul>
-          </div>
+    <div class="row m-0">
+        <div class="col-3">
+            <img src="https://agentes.autoevalua.com/agentes/img/logo.png" class="logol" >
         </div>
-      </div>
-      <div class="col-3">
-        <img src="https://i.ibb.co/LrkbXDw/AUTOEVALUA-CASGRIS.png" alt="Logo Autoevalua" style="height: auto; width: 20vh; position: absolute; right: 2em;">
-      </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4 offset-2">
+                    <ul class="infoAgent">
+                        <li>$NombreAgente$</li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul class="infoAgent">
+                        <li>$Agente_phone$</li>
+                        <li>$Agente_phone$</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="img/AUTOEVALUA-CASGRIS.png" alt="Logo Autoevalua" class="logor">
+        </div>
     </div>
-    <div align="center">
-      <hr style="background-color: #ff871d; height: 2px; width: 100%;">
-    </div>
-    
+    <hr style="background-color: #ff871d; height: 2px;">  
   </header>
 
-  <header class="logotype show-on-mobile" style="background-color: #FFF !important; padding: 1em 0px 0px">
+
+  <header class="logotype d-xl-none" style="padding: 1em 0px 0px">
     <div>
-      <img src="https://agentes.autoevalua.com/agentes/img/logo.png" alt="" class="logol">
-      <img src="https://i.ibb.co/LrkbXDw/AUTOEVALUA-CASGRIS.png" alt="Logo Autoevalua" class="logor">
+        <img src="https://agentes.autoevalua.com/agentes/img/logo.png" alt="" class="logol">
+        <img src="img/AUTOEVALUA-CASGRIS.png" class="logor">
     </div>
     <div align="center">
-      <div class="bluecint">
-        <p>AGENTE AUTORIZADO:</p>
-      </div>
+        <div class="bluecint">
+            <p>AGENTE AUTORIZADO:</p>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-12" align="center">
-        <ul class="infoAgent">
-          <li><b style="color: #757575;">AGENTE: </b>$NombreAgente$</li>
-          <li><b style="color: #757575;">TELÉFONO: </b>$Agente_phone$</li>
-          <li><b style="color: #757575;">CORREO: </b>agente123@serveremail.com</li>
-        </ul>
-      </div>
-    </div>
-    
-    <hr style="background-color: #ff871d; height: 2px;">
-  </header>
-
-
-
-
-
+    <div class="row m-0">
+        <div class="col-12" align="center">
+            <ul class="infoAgent">
+                <li>CAS - AUTOEVALUA® SEGUROS</li>
+                <li>55 6363 3790</li>
+                <li>
+                    <div class="row m-0">
+                        <div class="col text-center">
+                            CAS@AUTOEVALUA.COM
+                        </div>
+                    </div>
+                    <!--
+                    <div class="row m-0">
+                      <div class="col text-left">
+                            
+                        <button type="button" id="sidebarCollapseM" class="navbar-toggler">
+                          <img src="img/iconmenu51.svg" alt="" style="height: 36px;">
+                        </button>        
+                      </div>
+                      <div class="col text-right">
+                        <button type="button" class="navbar-toggler" onclick="openChat();">
+                          <img src="img/iconchat51.svg" alt="" style="height: 36px;">
+                        </button>
+                      </div>
+                    </div>
+                  -->
+                </li>
+            </ul>
+        </div>
+    </div> 
+    <hr style="background-color: #ff871d; height: 2px;">   
+</header>
 
   <div class="initstart">
     <div class="container hide-on-mobile">
@@ -133,7 +145,7 @@
         </div>
       </div>
     </div>
-    <div class="container show-on-mobile">
+    <div class="container show-on-mobile" style="margin: inherit;">
       <div class="row justify-content-center">
         <div class="col-4">
           <a href="#"><img src="img/icon_binac.png">

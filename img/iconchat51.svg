@@ -3,13 +3,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#1B4C8E;stroke-width:7;stroke-miterlimit:10;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#FF871D;stroke-width:7;stroke-miterlimit:10;}
 	.st1{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 	.st2{display:none;fill-rule:evenodd;clip-rule:evenodd;fill:#F47A18;}
 	.st3{display:none;fill:#349AD6;}
 	.st4{display:none;fill:#206496;}
-	.st5{fill:#1B4C8E;}
-	.st6{fill:#1F5DA3;}
+	.st5{fill:#FF871D;}
+	.st6{fill:#757575;}
 </style>
 <circle class="st0" cx="299.5" cy="299.5" r="280.5"/>
 <path class="st1" d="M169.6,220.5h9.4v102c0,16.3,8.9,30.1,27.6,30.1h181.8v4.9c0,14.3-16.3,28.1-32.5,28.1H217.4l-53.2,31.5
