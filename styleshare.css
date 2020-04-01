@@ -338,7 +338,16 @@ ul.phonemenu li a i{
 		margin-top: 35%;
 	}
 
+	.baricons{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
 	.baricons img{
-	width: 40px !important;
+	width: 36px !important;
 }
+
+	hr{
+		margin-top: 0;
+	}
 }
