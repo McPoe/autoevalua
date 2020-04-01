@@ -163,7 +163,7 @@ ul.phonemenu li a i{
 
 .baricons{
 	list-style: none;
-	margin-right: 1em;
+	margin-top: 1em;
 	margin-right: 1em; 
 }
 
@@ -273,7 +273,12 @@ ul.phonemenu li a i{
 	.logor{
     top: 0;
 	}
+
+	.logol{
+		margin-top: 2em;
+	}
 }
+
 
 @media only screen and (max-width: 776px) {
    .logol{
@@ -320,7 +325,7 @@ ul.phonemenu li a i{
 	text-align: center;
 	}
 
-	.row * img{
+	.initstart .row img{
 	width: 6.8em;
 	padding: 0 .5em;
 }
