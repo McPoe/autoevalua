@@ -283,7 +283,6 @@ ul.phonemenu li a i{
 @media only screen and (max-width: 776px) {
    .logol{
         width: 20vh !important;
-        margin-left: 1em;
     }
     .logor{
         width: 16vh !important;
@@ -340,6 +339,6 @@ ul.phonemenu li a i{
 	}
 
 	.baricons img{
-	width: 45px !important;
+	width: 40px !important;
 }
 }
