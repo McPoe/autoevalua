@@ -32,21 +32,22 @@ body.bgIMG
 }
 
 .logor{
-    width: 27vh;
+    width: 20vh;
     position: absolute;
     right: 1em;
     padding: 1em;
+    top: -2em;
 }
 
 .bluecint{
-	background-color: #ff871d;
 	width: 50%;
 	margin-top: -1em;
 }
 
 .bluecint > p{
 	padding: 5px;
-	color: #FFF;
+	color: #FF871d;
+	text-decoration: underline;
 	font-size: 15px;
 	text-align: center;
 	font-weight: bolder;
@@ -158,6 +159,51 @@ ul.phonemenu li a i{
 	margin-top: 10%;
 }
 
+.baricons{
+	list-style: none;
+}
+
+.baricons li{
+	display: inline;
+}
+
+.baricons img{
+	width: 68px !important;
+}
+
+.button {
+  border: none;
+  color: #757575;
+  text-align: right;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: 'Tel: (55) 6363 3790';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: 50px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 135px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 @media only screen and (max-width: 1280px) {
 	.logocas{
   	width: 20vh;
@@ -200,17 +246,17 @@ ul.phonemenu li a i{
 	text-align: center;
 	}
 
-	.row * img{
-	width: 12em;
-	padding: 0 1.2em;
+
+
+	.logor{
+    top: -2em;
 	}
 
-	.initstart{
-		margin-top: 15%;
-	}
+
+
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1200px) {
 	.row * img{
 		width: 9.5em;
 		padding: 0 1.1em;
@@ -219,14 +265,18 @@ ul.phonemenu li a i{
 	.initstart{
 		margin-top: 5%;
 	}
+
+	.logor{
+    top: 0em;
+	}
 }
 
 @media only screen and (max-width: 776px) {
    .logol{
-        width: 24vh !important;
+        width: 20vh !important;
     }
     .logor{
-        width: 23vh !important;
+        width: 18vh !important;
     }
 
 	img.icons{
@@ -278,4 +328,8 @@ ul.phonemenu li a i{
 	.initstart{
 		margin-top: 35%;
 	}
+
+	.baricons img{
+	width: 48px !important;
+}
 }
