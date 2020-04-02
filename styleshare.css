@@ -27,7 +27,7 @@ body.bgIMG
 
 .logol{
     height: auto;
-    width: 26vh;
+    width: 24vh;
     padding: 1em;
     position: absolute;
     top: -2em;
@@ -49,7 +49,6 @@ body.bgIMG
 .bluecint > p{
 	padding: 5px;
 	color: #FF871d;
-	text-decoration: underline;
 	font-size: 15px;
 	text-align: center;
 	font-weight: bolder;
@@ -176,8 +175,10 @@ ul.phonemenu li a i{
 }
 
 .button {
+	background-color: #FFF;
   border: none;
   color: #757575;
+  font-weight: bold;
   text-align: right;
   font-size: 16px;
   transition: all 0.5s;
@@ -196,12 +197,12 @@ ul.phonemenu li a i{
   position: absolute;
   opacity: 0;
   top: 5px;
-  right: 50px;
   transition: 0.5s;
+  margin-right: 50px;
 }
 
 .button:hover span {
-  padding-right: 135px;
+  padding-left: 180px;
 }
 
 .button:hover span:after {
